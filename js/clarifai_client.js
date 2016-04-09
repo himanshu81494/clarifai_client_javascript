@@ -1,5 +1,6 @@
 /**
  *  Author: himanshu gautam
+ *  Credits: original author's code, github.com/cassidoo/clarifai-javascript-starter, is used here
  *  github: himanshu81494
  *  2016 apr 8 11:09
  */
