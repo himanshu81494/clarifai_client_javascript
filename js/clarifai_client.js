@@ -45,7 +45,7 @@ function getCredentials(cb) {
   });
 }
 
-function postImageNSFW(imgurl, mode) {
+function postImage(imgurl, mode) {
   var model='';
   mode = parseInt(mode);
   switch (mode) {
