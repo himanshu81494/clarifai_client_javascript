@@ -98,7 +98,7 @@ function parseResponse(resp) {
 }
 
 function run(imgurl, mode) {
-  if(localStorage.getItem('tokenTimeStamp') - Math.floor(Date.now() / 1000) > 86400
+  if(Math.floor(Date.now() / 1000) - localStorage.getItem('tokenTimeStamp') > 86400
     || localStorage.getItem('accessToken') === null) {
     getCredentials(function() {
       postImageNSFW(imgurl, mode);
